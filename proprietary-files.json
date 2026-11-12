@@ -1,0 +1,37 @@
+[
+  {
+    "source": "system/bin/keystore2",
+    "sha256": "1140cf7e9c52f50bf6941eb3223ba452b02083931558d1784f133e9c1114752e",
+    "destination": "system/bin/keystore2"
+  },
+  {
+    "source": "system/lib64/libandroidicu.so",
+    "sha256": "63b1261932f1ef61adb238246e7a49767a4c82d97562908e79cb678c495852a9",
+    "destination": "system/lib64/libandroidicu.so"
+  },
+  {
+    "source": "system/lib64/libicui18n.so",
+    "sha256": "b1cf9196051766b7d8ca3d1726181032ac862fe97242361cbdbb5722b502d182",
+    "destination": "system/lib64/libicui18n.so"
+  },
+  {
+    "source": "system/lib64/libicuuc.so",
+    "sha256": "2a7cd319920828668480e469d4fc6c818d609e88703ea45e84d253605b611725",
+    "destination": "system/lib64/libicuuc.so"
+  },
+  {
+    "source": "system/lib64/libdl_android.so",
+    "sha256": "249269cb652835f4427cfe58cbe3809ce16371220b0a5d3d12847d88dff7d179",
+    "destination": "system/lib64/libdl_android.so"
+  },
+  {
+    "source": "system/bin/servicemanager",
+    "sha256": "7bbde81fa9096e05553ebabf6747343fa343d44ed75e6e148467e7dc54dcb603",
+    "destination": "system/bin/servicemanager"
+  },
+  {
+    "source": "system/bin/service",
+    "sha256": "9bcc7f2bb51fa0a76ea63c74aa7298b4b231e7e1c0396df8221907cb46c19d1d",
+    "destination": "system/bin/service"
+  }
+]
