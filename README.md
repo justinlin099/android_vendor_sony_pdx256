@@ -1,6 +1,8 @@
 # Factory dependencies
 
-Independent vendor dependency repo, branch `twrp-14.1`, for `pdx256` / XQ-FS72.
+Independent vendor dependency repo, branch `twrp-3.7.1_14`, for `pdx256` / XQ-FS72.
+This branch matches the companion recovery port's TWRP main version;
+factory dependencies remain pinned separately to firmware 71.2.A.2.35.
 Clone into `vendor/sony/pdx256` inside the companion build-integration repo.
 This tree contains extraction metadata, not a complete Android vendor image
 or a vendor partition build tree. Factory binaries are not modified here.
