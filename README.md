@@ -21,3 +21,8 @@ Extraction is offline and hash checked. It never contacts the phone. Imported
 files are ignored by Git, and no Sony firmware is downloaded or redistributed
 by the build scripts. The device must retain matching vendor/firmware partitions;
 this recovery is not a standalone replacement for those partitions.
+
+Build integration: https://github.com/justinlin099/twrp_sony_pdx256
+Device tree: https://github.com/justinlin099/android_device_sony_pdx256
+All three repositories are currently private. Firmware binaries remain local
+and ignored even when this repository is pushed to GitHub.
