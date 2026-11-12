@@ -2,3 +2,6 @@
 *.patch -text
 *.ico binary
 *.img binary
+*.xz binary
+/proprietary/** binary
+/recovery/root/** binary

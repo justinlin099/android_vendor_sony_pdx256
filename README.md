@@ -12,17 +12,22 @@ or a vendor partition build tree. Factory binaries are not modified here.
 The word proprietary describes the extraction tree, not a claim that every file
 is closed source. The exact factory build is used for Sony runtime compatibility.
 
-Supply a raw stock recovery image and an extracted system root with `system/bin` and `system/lib64`. SIN files are not
-raw recovery images. An EROFS/ext4 system image must first be extracted using tools
-appropriate to its filesystem; do not point the extractor at a mounted live Data
-partition. Run `tools/extract.py --help` for input arguments.
+The private tree includes seven system runtime files under `proprietary/` and
+individually extracted recovery dependencies under `recovery/root/`.
+`recovery/files.json` records their hashes; empty entries and symlink payloads
+are represented inline, while the device recipe retains CPIO metadata.
+The original SELinux policy is included as `recovery/root/sepolicy`.
+No whole or compressed stock recovery image is tracked or required to build.
+No phone connection or separate factory download is required after cloning.
+Image header and AVB settings are explicit in the companion device/integration
+code, and unmodified upstream mkbootimg/avbtool generate the image.
 
-Extraction is offline and hash checked. It never contacts the phone. Imported
-files are ignored by Git, and no Sony firmware is downloaded or redistributed
-by the build scripts. The device must retain matching vendor/firmware partitions;
-this recovery is not a standalone replacement for those partitions.
+`tools/extract.py` remains available in the integration repo for maintainers
+importing matching raw factory files. SIN files are not raw recovery images.
+The device must retain matching vendor/firmware partitions; this recovery is
+not a standalone replacement for those partitions.
 
 Build integration: https://github.com/justinlin099/twrp_sony_pdx256
 Device tree: https://github.com/justinlin099/android_device_sony_pdx256
-All three repositories are currently private. Firmware binaries remain local
-and ignored even when this repository is pushed to GitHub.
+All three repositories are currently private. See NOTICE.md for factory binary
+and third-party asset attribution; no blanket relicensing is implied.

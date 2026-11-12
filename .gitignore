@@ -1,4 +1,4 @@
-/proprietary/
 /stock-recovery.img
+/stock-recovery.img.xz
 __pycache__/
 *.pyc
