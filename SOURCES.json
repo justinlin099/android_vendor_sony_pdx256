@@ -1,0 +1,1654 @@
+{
+  "model": "XQ-FS72",
+  "firmware_version": "71.2.A.2.35",
+  "stock_recovery_sha256": "895f8c76b4d4ae933344b83f461ffe4f8d7710597e62a590996b5dc371060246",
+  "sony_source_archive": "https://opendevices.sony.net/file/download/open-source-archive-for-71-2-a-2-35",
+  "scope": "Stored factory payloads; inline CPIO data and symlinks remain indexed in recovery/files.json.",
+  "NOASSERTION": "Exact license for this factory payload has not been established; no relicensing or redistribution permission is asserted.",
+  "files": [
+    {
+      "path": "proprietary/system/bin/keystore2",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/bin/keystore2",
+      "sha256": "1140cf7e9c52f50bf6941eb3223ba452b02083931558d1784f133e9c1114752e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/lib64/libandroidicu.so",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/lib64/libandroidicu.so",
+      "sha256": "63b1261932f1ef61adb238246e7a49767a4c82d97562908e79cb678c495852a9",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/lib64/libicui18n.so",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/lib64/libicui18n.so",
+      "sha256": "b1cf9196051766b7d8ca3d1726181032ac862fe97242361cbdbb5722b502d182",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/lib64/libicuuc.so",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/lib64/libicuuc.so",
+      "sha256": "2a7cd319920828668480e469d4fc6c818d609e88703ea45e84d253605b611725",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/lib64/libdl_android.so",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/lib64/libdl_android.so",
+      "sha256": "249269cb652835f4427cfe58cbe3809ce16371220b0a5d3d12847d88dff7d179",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/bin/servicemanager",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/bin/servicemanager",
+      "sha256": "7bbde81fa9096e05553ebabf6747343fa343d44ed75e6e148467e7dc54dcb603",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "proprietary/system/bin/service",
+      "source_container": "Sony firmware system filesystem",
+      "source_path": "system/bin/service",
+      "sha256": "9bcc7f2bb51fa0a76ea63c74aa7298b4b231e7e1c0396df8221907cb46c19d1d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/buildversion",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "buildversion",
+      "sha256": "6dad670c64f3063cdc8f67c7597f0635fdfab3bfe2f27edbd853b515f39ddfb0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/init.recovery.qcom.rc",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "init.recovery.qcom.rc",
+      "sha256": "d546b0cac17a7b00e63d4a2e24d6dfe99fe4cf517551e64016ae55c53312ae60",
+      "license_concluded": "LicenseRef-TLF-recovery-init",
+      "license_evidence": "Embedded notice in recovery/root/init.recovery.qcom.rc",
+      "license_text": "LICENSES/TLF-recovery-init.txt"
+    },
+    {
+      "path": "recovery/root/odm_file_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "odm_file_contexts",
+      "sha256": "6bf561bdb2afb5f4c7738c678a42b1cfd9c487d494ba8a840503ebec83ab1219",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/odm_property_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "odm_property_contexts",
+      "sha256": "9007d12f7eb62f27e112031f8c1cbbc16ccfe989497b739c6dc01ce679390490",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/plat_service_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "plat_service_contexts",
+      "sha256": "59ed05aad51dc3d792f032532f9f1ab6e3e6cd652ad4f9f54d33d40795d45fc3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/product_file_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "product_file_contexts",
+      "sha256": "7da376394b011e2f9828e21b65ada2824f742769a248be7a62a1ed9a39750a11",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/product_property_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "product_property_contexts",
+      "sha256": "6f4bdbe695e06f05fb2223ca2f37b2a99689b574e4e9769d856b7753b1955b4c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/product_service_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "product_service_contexts",
+      "sha256": "c78386d16662efab66d9adefdb6f81a642c484648bbb9e8c96ae7247c941c7bc",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/cancel_wipe_data_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/cancel_wipe_data_text.png",
+      "sha256": "108ceae4bd9e60b657d48332122ce4fc36f6f1954f3d0748c901168f9878ed21",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/erasing_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/erasing_text.png",
+      "sha256": "18fae4f3f032911a0c63968ed9e2658174029a20ee900ef16f50bdca5d862431",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/error_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/error_text.png",
+      "sha256": "e7a975a3a6cb7c277acf5b9a31bb797f22284a147a387c9c2389423aef986742",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/factory_data_reset_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/factory_data_reset_text.png",
+      "sha256": "f4892b9f4f51f915f988ccdd85f926236ef489bb94b31e123ebf0b46d24ad8c9",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/fastbootd.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/fastbootd.png",
+      "sha256": "e6558a6ef6a90304c5c73c738c5a840b0ea913efae904844f576fed61db764bd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/font.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/font.png",
+      "sha256": "9440c9f63c5cc03b90d8435b3e459a5dc499308b3120fd2aa7ec1735cd5a0be9",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/icon_error.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/icon_error.png",
+      "sha256": "2e4bab5e6a14ee2766516245c6c0e7ac0f6dc35cd2dccb808d6cac40a74260d9",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/installing_security_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/installing_security_text.png",
+      "sha256": "3bdf47add20d5078d138cf94ef0aeb78883132a30f264f43c0127e583ad6d774",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/installing_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/installing_text.png",
+      "sha256": "953a8399f072142a53eb2c4befcc45a55241809ac66ff59b9f839c4a9767e062",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00000.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00000.png",
+      "sha256": "2ad10de68ad59f2231ffd9b0cc3e2e6748af262330602d4da0a125a692df2f8e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00001.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00001.png",
+      "sha256": "115dd16fb559bc73777f638850a96c2db99162a2ed437f05a311c1f6be297463",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00002.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00002.png",
+      "sha256": "15938bf06eac64813a0ebdd340f3aaf17c6b1207c0714b5944f622b3096a756b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00003.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00003.png",
+      "sha256": "88e3c969746c7906bf3dccfb2c07ee19704d4e6c4c558e506f3793a47c1ef9a1",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00004.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00004.png",
+      "sha256": "4b622b8e01f766a5acfff3be8e90246b13f29d030adb3f140b892e854f7c7db3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00005.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00005.png",
+      "sha256": "e421799c9d0716522dd7ee76a440592b60bf62508a080eef861d3644f88b202b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00006.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00006.png",
+      "sha256": "643a91a68e1cf250af5cdedaba84c2e1b015bd62bf1c86c4599aab88a4bf1cc7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00007.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00007.png",
+      "sha256": "a8f52c8b5459c5b0b32f63c48f50f9323583b9d4898bf7d44282ef9c4a6f12ad",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00008.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00008.png",
+      "sha256": "584394924314c36b8b76946ac66fc40e6b4f896e6799b4014f39da7e08eb7372",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00009.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00009.png",
+      "sha256": "6bdb08ebe9a8cfe9b180856afdd4d04b9a6e897893dbe95256c514fa766081f7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00010.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00010.png",
+      "sha256": "95c305c9b079d085e8ce4c18b98190f14d2cec03835782af7ad5dd0804aed981",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00011.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00011.png",
+      "sha256": "a05bdf4f18285d5bd4736560f06c946cab61d7df7613272a57d7f552050d081e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00012.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00012.png",
+      "sha256": "765fa92a2baf569dab609ac02827ae2286108036b0a3024b4217323dfb5709c0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00013.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00013.png",
+      "sha256": "921b87b17b42991975b13b66122426e8a39515a3db58cd5f172d396a83bf8f88",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00014.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00014.png",
+      "sha256": "296480b855b4edd0d47bbdbb72b4a7256c43b9419867a06f1bca48e619ed9af1",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00015.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00015.png",
+      "sha256": "d4e5b3090a208de2b8b49149cdfe2c943489a2fdd3d97c8a2b3c09bc329867a2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00016.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00016.png",
+      "sha256": "770341d2ffbb38f3d127048a3461d1d5154bbe2f6eaffef1bfa2e8ab8646fccf",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00017.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00017.png",
+      "sha256": "ade0b3e1402a2082bcf0548e247bf95a2718afd8e121ab3594137fdbfb447946",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00018.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00018.png",
+      "sha256": "6f70b3fa5f114d70e1333df525344582aec919f23b60a671fd924bcd71523f3f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00019.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00019.png",
+      "sha256": "0aa22e6e8548d12e6add71cf75915174d96032c219512397b3588483d00f1711",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00020.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00020.png",
+      "sha256": "53e2f116bf69241164f7515ddcc00ea0e0a58105dedcc2bef010b5f0cd1bd4a3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00021.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00021.png",
+      "sha256": "17144642281bc4b76c257fcdaa1b69ac247d6a1b7e7efb5456b497d34c78c413",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00022.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00022.png",
+      "sha256": "14678646870da88facd34eca18a98dfe3721785a32a4ebb58da28aab7ef4ee0e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00023.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00023.png",
+      "sha256": "8cda86f8816a30f67a4fe13fb970dcf584ad8b6ddfb41629b234ad05d5d42858",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00024.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00024.png",
+      "sha256": "45d1e6489981cb297fd2870b815212781e1ce9f19c7a9c45ad724bb1a266f6c5",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00025.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00025.png",
+      "sha256": "608981b55554c0314a9e99f81a80d603ad69318e4c23615e97d834537ed195bd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00026.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00026.png",
+      "sha256": "4644c64e3090e1d6fe3003f1fcc6afcc62fd7491f1bcf79aff5194be535c0fd5",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00027.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00027.png",
+      "sha256": "ae6a17df5eda0e2c0bd732a35e745a54d61844e47f97e57adc348b6b5e213aa4",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00028.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00028.png",
+      "sha256": "fa208ba4e6bcd31817056e36c5a013058f5cde47e211e1a0e9153d001783847d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00029.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00029.png",
+      "sha256": "a7e2a318223e1012c8cccab6e10c9645bca65d44ae5eb643bd86558e460bda06",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00030.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00030.png",
+      "sha256": "e611db2425a8d48419edb0df687bf48866d6f325260a97fa49838a13bac339cb",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00031.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00031.png",
+      "sha256": "7035098c01b7b09a585ba098f4d486e1d9a8b38fd9644eff6ed0d722494eb4eb",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00032.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00032.png",
+      "sha256": "3574e9a2e0beccb40eb98d4c4583f0761c05adc883e85ceb99bfb84ce7da2b56",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00033.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00033.png",
+      "sha256": "455aee2a3ebe0c05042b80ddbf1c5e7c73794c5e2ce27d5bb64a47dcb577f3f8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00034.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00034.png",
+      "sha256": "aa82a39c6771af664053483baa583e4898e78d2f37b7e4a30649e78ee64298eb",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00035.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00035.png",
+      "sha256": "1498ccbaefc9c1ed9959a56e2d980c3cf15bc840214aa1d999ccb53d0169e9c4",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00036.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00036.png",
+      "sha256": "c6ad20eb4d764daea53ff3c04b0912c9228e49b510ef1b5d3f63ec6db1d9fb73",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00037.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00037.png",
+      "sha256": "ac7c5edf535f964545b0644f4948d85a8de17a9819d1323529558187121eaca2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00038.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00038.png",
+      "sha256": "34dd6e0fa0960f35fdc977856f5feebe132df95642985865b39996cc9dbfe9d0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00039.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00039.png",
+      "sha256": "87c2dcb0c81a1732891d867f5a5c11273a5bcddc7492f9f64d728d45ecbe8afe",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00040.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00040.png",
+      "sha256": "954bbdf4f13038a15cafb34cd14687fe951f628ef5148db4e8cfbf100eac8bcd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00041.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00041.png",
+      "sha256": "c0dd06abff8c1263e5c34c8ec7602ef468d753136bb5711a337dd2569eab0ff2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00042.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00042.png",
+      "sha256": "63edf7df18ec1bc0343b5612e01e8675557828c38fb479396ac2b89bf8128eff",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00043.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00043.png",
+      "sha256": "a3c23001e06be4eab008b16f0921640db07262fa71588138831ef57af945c227",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00044.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00044.png",
+      "sha256": "35b40bff163a1149b4234d22622870921d981227477ca8b4c8cf2d3c85fc11ee",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00045.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00045.png",
+      "sha256": "28c6396d0104679aaf5c6144dfb2a9c95e18b77dcf0f79f4de1a4e1bfe1e7c5a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00046.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00046.png",
+      "sha256": "6c6637a8f947926684b44203449971d37c2e504f5f10512d47bd616136a5b982",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00047.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00047.png",
+      "sha256": "7c6c8242b187d1b04e8d8ef9d183a0f00f0ae9f27c4257878083c3c799d22e08",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00048.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00048.png",
+      "sha256": "98b9d77507f2cc29daa4379d351b11bc4fd64e5363ae5a9eb02adaedc3cc36e4",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00049.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00049.png",
+      "sha256": "c00252d2cb555b731f8e0838da141b827de9540681967fa1ae9e8fff7a66f3e2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00050.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00050.png",
+      "sha256": "36ca166a24a225cc788f5edcf8472ea1cfab27a25549abe3c4844e61dc72575f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00051.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00051.png",
+      "sha256": "47270f8ce4e6a9a34fb49e743f8bfc87b35da78440c565c912f5e67d5bce8020",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00052.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00052.png",
+      "sha256": "64cc5dcd0046b89c7734dc9c0b14b9a180c9c6f0bb4bce4dbe3a05a515255fdd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00053.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00053.png",
+      "sha256": "a4bf8d63d7ae870f251559f7dba3d5e722bc314394ed50b4462bc1060fc9cc9a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00054.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00054.png",
+      "sha256": "52d2cc8b7f6ac2a86e23fbd576cde837f59e0361e1db242e3fab331fef318820",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00055.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00055.png",
+      "sha256": "ec83efc268c96a52e7ce8c9aa66196c36bbf7e31847bbcc41da79dc60abf08db",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00056.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00056.png",
+      "sha256": "99ee54bbe1d6312eaf24ebf92a7e1e4507494c675fd8b81eb7a7a34f61d939eb",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00057.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00057.png",
+      "sha256": "74fca02e1f25b78cc20a175a20e642e1fe52137c77c5e33856151b851dd1112f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00058.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00058.png",
+      "sha256": "6e65e7898bf9e7dfa157e86d365749fe7d69e62fe7c80d558c025f2d4c7e8447",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00059.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00059.png",
+      "sha256": "9d6f53a9736ef2d40fb34461b3d84d4ed9f84f431c6179f6f2379fef25c806a3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00060.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00060.png",
+      "sha256": "4a2e0c31219cfc2d75b99fdc6b728c891e98b07910b65684de59128ed577e4be",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00061.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00061.png",
+      "sha256": "ad5b33168f7c7b766633dfb58646822eaa160811f83c0d8df7ae1bb92d89bf8c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00062.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00062.png",
+      "sha256": "c8e0a2b36929c54730c63e27ac53053031d7b8d7a0c733ced0ba783dcc895d92",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00063.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00063.png",
+      "sha256": "80af2523b5cfb88d6f178a1035b4013d6527fdd25da248e54e88733720200d1f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00064.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00064.png",
+      "sha256": "348589fd3891b2be98c6e6d0088b118c9e89368976610014f1aab3cd7568d565",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00065.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00065.png",
+      "sha256": "dd417d95acfeb6919d863ce28b7412321adf418ceb725d23e73e041c6d7cbdf1",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00066.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00066.png",
+      "sha256": "4321a5aed90e8cd9d2884b5200ba238709edf3a6e2aa84a8b3efdb4d495c713a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00067.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00067.png",
+      "sha256": "87239961058605609afb341d87285f078afac028f11cf76197a79ad877867326",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00068.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00068.png",
+      "sha256": "5546618aeb1a7ce557f0333a61f3bcba12c732914fd04012593b709ad528f4ef",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00069.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00069.png",
+      "sha256": "19bad524b88f27127fac7a0c3d4a9f73ba8b9b7c86806db47345f774c1a9a4a3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00070.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00070.png",
+      "sha256": "92433c85860dbe52e661303111b830141894c8409e9b41ebdfe562e3b7a710a4",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00071.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00071.png",
+      "sha256": "2eb00a7473b6002181613b1695c573c266e7c7406476ea3725698d34731b9660",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00072.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00072.png",
+      "sha256": "50e226a3500fd148af33cb3f4e3196a59504ec5796059999cce07231f17e1a37",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00073.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00073.png",
+      "sha256": "e6d369f01820392cf1749fabb85e7b6db51607e21fee5ceb56e548729da9dad8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00074.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00074.png",
+      "sha256": "b68b0d4a8af40340f952d315fd6bbbe86e289274d0d6e496cf49cdfc2969e924",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00075.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00075.png",
+      "sha256": "6924031f11b63401630725406a96b0be081b80e52594a70430ea2326a4fe5acc",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00076.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00076.png",
+      "sha256": "d0c53c610359ae0b5365dafadd01afe59d584c4e74f415e5b05bdfe692c1ec2f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00077.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00077.png",
+      "sha256": "e5c8120f3a23fc90a88a6ce1b70fb93623dd012bbae20f722f505b22a8169cf5",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00078.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00078.png",
+      "sha256": "fa60de842429192af072912a66cf704803cc0065ba277d3db215b18a0e8785e9",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00079.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00079.png",
+      "sha256": "a757a7c07344c65db2c84619878f660a7ebf3f11779bb5d9d8cbb2cfad294f88",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00080.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00080.png",
+      "sha256": "ee62d44cf93ff63218c4f13ab7a0153370b020edae56b85affe320d4bf204b63",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00081.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00081.png",
+      "sha256": "f69e778f870568c9842d951b67024cbb65d7b5d15780da8c0ade8c44c2d98aa7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00082.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00082.png",
+      "sha256": "dd0cd70694e07db8e32cb2b4380eed1ca01b9dee7a29b95ea6c720a9354d1626",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00083.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00083.png",
+      "sha256": "a5962107d20459bfaff5237b9ffed8a7f3551016b30cf71c5e2ef5704a95e42b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00084.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00084.png",
+      "sha256": "fe17f9b9473e09ca72b89abcfcad2529d7e2c3bcd8eef0105ac7a3e47af4765b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00085.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00085.png",
+      "sha256": "cd8f4281426a6834eb2f4ee5e705710f5178da70be23bd0867be6a731cf4c065",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00086.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00086.png",
+      "sha256": "1300d7e75e753de77536ad5dbbee62f8a006cdcd1843b23edd146fed76f634e2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00087.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00087.png",
+      "sha256": "c82cf1cbc03848546445d9141984c48ea700f5503d3364f1bdecbc9a493e3547",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00088.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00088.png",
+      "sha256": "dce9ac1c9a164fb87eaacac95287088490cf430c8eee9a40fa9d2f57e04a4d01",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00089.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00089.png",
+      "sha256": "b31fa54c166c7c3cbfef08554a9852712d3e0b2d9c53ea70f80fd96481e65f61",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/loop00090.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/loop00090.png",
+      "sha256": "2ad10de68ad59f2231ffd9b0cc3e2e6748af262330602d4da0a125a692df2f8e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/no_command_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/no_command_text.png",
+      "sha256": "2119290a754400b2a8c0f7ddf5ead43dc4e493ff8fab48b255e7590a4f7d97a7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/progress_empty.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/progress_empty.png",
+      "sha256": "745e2981d8042f984c5c6942fc29270a9b60fa98170c269f41d0bdbd5c67e623",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/progress_fill.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/progress_fill.png",
+      "sha256": "980b3fa6936f88604ebd62f84663a8f2fe1430e0354906cc5e90f3db77080bea",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/stage_empty.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/stage_empty.png",
+      "sha256": "4c1fa145fad89570980d71b496731a018de302e6456e24376c219c44c536f0db",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/stage_fill.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/stage_fill.png",
+      "sha256": "fd84b1c971c80f1eaf9d1cdf1320ea47df94485c2ea12dd9df26e974d8edb5f3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/try_again_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/try_again_text.png",
+      "sha256": "1b806ded7914a1be54176fa1b916cbc1f638b8548ab7ff990e23e9b1828ed3a3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/wipe_data_confirmation_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/wipe_data_confirmation_text.png",
+      "sha256": "2312d4da0509666428a659a1b19d1a7a194c463fd54e2d886dcba25b6fa86ae7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/res/images/wipe_data_menu_header_text.png",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "res/images/wipe_data_menu_header_text.png",
+      "sha256": "78b1693c7304ba0fa94772c68dd288c231ca8aaf1c68ca950e09518874bf3322",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/sepolicy",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "sepolicy",
+      "sha256": "61400c97a870bb786aea3e8f1f7e6df0f166cd18b87318792aa19c230f76c2e2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/adbd",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/adbd",
+      "sha256": "129a320707baeea250cf19841f1f6667abe1b51c981795b4af98b6894d89f48f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/dump.erofs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/dump.erofs",
+      "sha256": "d213ada0e6530c2223d32aad3d263ceeddc454c3f2f7330705eac2dfc5516374",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/e2fsdroid",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/e2fsdroid",
+      "sha256": "685f5f59b274c65854b28571ef58f24d4d1081a0cab4e63192e1e316fad6b83c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/fsck.erofs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/fsck.erofs",
+      "sha256": "670429d0a539f024b9aebf1dd2ce098227ea8c6474320c8fe9019db460882fe8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/fsck.f2fs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/fsck.f2fs",
+      "sha256": "5264ff6b5f5885f3dae8f285cb1b9957901dc8798b19206865a1f122170d53b3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/hw/android.hardware.boot-service.qti.recovery",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/hw/android.hardware.boot-service.qti.recovery",
+      "sha256": "6210e938a7797698e5d18d53b06af29e96e3d891a13a8013b7c9b7a1ad34c592",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/hw/android.hardware.fastboot-service.example_recovery",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/hw/android.hardware.fastboot-service.example_recovery",
+      "sha256": "56b5ced71388ff7233e59a54f41151875c78d0fd7f5d9f738661052172d09ad8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/hw/android.hardware.health-service.qti_recovery",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/hw/android.hardware.health-service.qti_recovery",
+      "sha256": "a3938d868137b9d5c8ad17310512825c43c2adc0afbc3a1d7454ddc3f8e60ceb",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/init",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/init",
+      "sha256": "23252600db385de40d6411e6190c2ee031ff344cf3b717af1c42beb0c1c6ff4f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/linker64",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/linker64",
+      "sha256": "daba692ca213f17581bd1bfe4b37e256b6c429ecbfbc5453dc7a5b0953beb364",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/make_f2fs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/make_f2fs",
+      "sha256": "6e2a726b63bb68dc9bb93776f020b93d3f307815f610c16ada5f63b24da36c60",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/minadbd",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/minadbd",
+      "sha256": "dd32370887f6f8797064ca559bf2468d0cf73d0a63fd39bf86a9ab96824887ec",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/mke2fs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/mke2fs",
+      "sha256": "c045b30777763a211dd70423e9eb850e91ca1a3a3ce7d085b39d1d1b4c47465b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/mkfs.erofs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/mkfs.erofs",
+      "sha256": "324507334b2c4cb107564ee9029b9ad12a8cc77826d16b9a851dd0c2db7be3ee",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/reboot",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/reboot",
+      "sha256": "321d5c61dbeef1a6e2bfb7d2bf6576de3cf67acbc2809583af47972068fc7a4f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/servicemanager",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/servicemanager",
+      "sha256": "7014040a05e58ace97c63086521242226f226807fde620dc23166490c8d5248a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/sh",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/sh",
+      "sha256": "18233cfa43d37df18c6b0cbfa51fe8390383f04a37ed90c2c2bd4815267c114c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/sload_f2fs",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/sload_f2fs",
+      "sha256": "1b052cfdaf73e2a879bbc201fcacc3019a5a1041bd94c7126b547bb68b11c7d0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/tad",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/tad",
+      "sha256": "e4b428e31621515279375eacbfa668c747dba14a7d4c39477e57af487fb00451",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/toolbox",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/toolbox",
+      "sha256": "a4b78696ffeb67553618d4fafcd64c0542e9b9fbbc5ed1f4e1cb7beca55bd760",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/toybox",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/toybox",
+      "sha256": "67f3d233f7075b572c94a755eb42fbe884ab317bbe1bdeb42d24bc6dccb953bd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/update_engine_sideload",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/update_engine_sideload",
+      "sha256": "e0c00b6d6a627321240cc080e1d1641b4d36ff66fc8e09a1192d086b540c3fe1",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/wait4tad",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/wait4tad",
+      "sha256": "f8093b9ca4e6469228d39477e3854e177e2fbd77b120af96e69be3133e28361d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/watchdogd",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/watchdogd",
+      "sha256": "e158c320985a200e406034fb41465876c31e1b724fcde93154ca67b80a931dcc",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/bin/ziptool",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/bin/ziptool",
+      "sha256": "541742c8a4845e12024859f4a61928dcc973fb90240283d736b02b3bbbd236b5",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/cgroups.json",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/cgroups.json",
+      "sha256": "561176fdcca2669f8e718f911bba59a745bd43f05083f2249b80e627b73a395d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/init/android.hardware.boot-service.qti.recovery.rc",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/init/android.hardware.boot-service.qti.recovery.rc",
+      "sha256": "3e2b822cf2dcb40ab45cbc42c59a738df9da78cf215ef2abc26ac2f1706e93bd",
+      "license_concluded": "BSD-3-Clause-Clear",
+      "license_evidence": "Embedded notice in recovery/root/system/etc/init/android.hardware.boot-service.qti.recovery.rc",
+      "license_text": "LICENSES/BSD-3-Clause-Clear.txt"
+    },
+    {
+      "path": "recovery/root/system/etc/init/android.hardware.fastboot-service.example_recovery.rc",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/init/android.hardware.fastboot-service.example_recovery.rc",
+      "sha256": "a8a6a6d89d14c941c13aae75d5844004d0952e09de7b9934c8ec4dd4a9141bf1",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/init/servicemanager.recovery.rc",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/init/servicemanager.recovery.rc",
+      "sha256": "e957d6102b03909de2f9b91073911cedb16f28ed9df546038453abbe8de7d08b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/ld.config.txt",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/ld.config.txt",
+      "sha256": "850e6c29e68eec2ca97850084052fe8b379f23406b96dec8187edef7dd595421",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/mke2fs.conf",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/mke2fs.conf",
+      "sha256": "ad58a58dcdd24d85055814ca9cac67db89d4e67c434e96774bdce0d0a007d067",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/recovery.fstab",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/recovery.fstab",
+      "sha256": "509c43c120f8f466f12bef4f9cfae81dba5c177658d4a21a7c89c730e11e88d5",
+      "license_concluded": "LicenseRef-TLF-recovery-fstab",
+      "license_evidence": "Embedded notice in recovery/root/system/etc/recovery.fstab",
+      "license_text": "LICENSES/TLF-recovery-fstab.txt"
+    },
+    {
+      "path": "recovery/root/system/etc/security/otacerts.zip",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/security/otacerts.zip",
+      "sha256": "96becbefe9bb6fd7f6a682a0820851abd297fe8bad85a81e1d8be9ea1224e54b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/vintf/manifest/android.hardware.fastboot-service.example.xml",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/vintf/manifest/android.hardware.fastboot-service.example.xml",
+      "sha256": "f211201e928d8ea2a8bce8dee35361259820563c4fd46409691d1483aac9ff1d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/vintf/manifest/android.hardware.health-service.qti.xml",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/vintf/manifest/android.hardware.health-service.qti.xml",
+      "sha256": "7114ad85b010f8f8b89fcc0685dd3671806f74d8db1bbd3111b61f8d6006b367",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/etc/vintf/manifest/boot-service.qti.xml",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/etc/vintf/manifest/boot-service.qti.xml",
+      "sha256": "93b5e4a57557f16420107605dc93620fae2f2026cc84e31f3de093a38f791a1c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.boot-V1-ndk.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.boot-V1-ndk.so",
+      "sha256": "4c13db8d637e8394222f3d325752ae1046df4e2035ed7942da82e3b556ea5339",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.boot@1.0.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.boot@1.0.so",
+      "sha256": "1043ac96ff67de7325f5c79dea55e95a6e238bf27ab3c325911e681fce696e8a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.boot@1.1.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.boot@1.1.so",
+      "sha256": "1506500f31d11724f0cebe8cffc51ef31aceea7207432ad9ce8d98709f56a621",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.boot@1.2.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.boot@1.2.so",
+      "sha256": "8cc73b6e8b1662b53cf98c0a0acfda047397a3b25d4a5df6126a995657a92d53",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.fastboot-V1-ndk.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.fastboot-V1-ndk.so",
+      "sha256": "5810a08d882f4356ae39a1f2b2b37986a3967423e45d97f582bcf23b4d5b06ee",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.fastboot@1.0.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.fastboot@1.0.so",
+      "sha256": "43b5b430b53e8adccd308134819bb2525d37b77b6d29d24018d0d012a66e17e5",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.fastboot@1.1.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.fastboot@1.1.so",
+      "sha256": "18aab4b51ca59a874f1c2ca6f9aee23614179d9e120bb1a7ff66566815339827",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.health-V3-ndk.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.health-V3-ndk.so",
+      "sha256": "0e525ea22616140178ff28c522706f685cb09cd8710244103002b258bceade61",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.health@1.0.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.health@1.0.so",
+      "sha256": "5e1f3a843edcbdfbb88b3970c2a312cafcc1d4148908794aa45ddb9abdc4f113",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/android.hardware.health@2.0.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/android.hardware.health@2.0.so",
+      "sha256": "6c8b4a3d348ee9e400d33760ea4feb2fe4d7257ab9fc4ef5332389fe2cd7067c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/ld-android.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/ld-android.so",
+      "sha256": "3d189d0970b94192be5e18ff960984312d9b2c4721828a24d3e11fa576f88b83",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libadbd_auth.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libadbd_auth.so",
+      "sha256": "3eabf49b4015c6231fb6b77477296a71d717840f375eb4f77b2e0e8ec81435f8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libadbd_fs.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libadbd_fs.so",
+      "sha256": "b664ccebc928f5a7e6f3cf24479ff5eea6b580293553de0eeefff06c65411a84",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libasyncio.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libasyncio.so",
+      "sha256": "0c906fc6cfa29deb55c71c5fbc28412078274f39b986f3572566baf5a09bc601",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libbase.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libbase.so",
+      "sha256": "cff4d9b42d0c2c834a1c675db392420d066a0eecbe2f167c7909037968756658",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libbinder.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libbinder.so",
+      "sha256": "80422ac4e571dd8ef2096b78a0bf80389428c6be088612e210720a5ef8c217a2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libbinder_ndk.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libbinder_ndk.so",
+      "sha256": "a6da124c6201758c7f5fe50bb44541f713260dd0956287bfc7f85dbaad0fa792",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libboot_control_client.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libboot_control_client.so",
+      "sha256": "0b3a2510ca83c23935b4e20b51eb56bf670421ddc1338b25a2a5864d6e4e9b7e",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libboot_control_qti.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libboot_control_qti.so",
+      "sha256": "3d19a0c1463584014db010af14dbead86f5d07e22665dde21cd86850d5372e97",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libbootloader_message.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libbootloader_message.so",
+      "sha256": "22e846252e7c1cb54d6da818c039c78c71a8c6fc3f2fa359330513cca9214d8b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libc++.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libc++.so",
+      "sha256": "794eb8fafd7be35da3725e9ec0b15189c6f4f2544f5b78afd8a647dde5b69195",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libc.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libc.so",
+      "sha256": "bbf2f809b4786742b95301632ea5b456eefa66bd55ee2e5aceda3e40a3f3ed3d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libcgrouprc.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libcgrouprc.so",
+      "sha256": "e083eeb284acdf7e7be72bcf492a32e7218f707fa85e1ae11ded08f33cce9f88",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libcrypto.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libcrypto.so",
+      "sha256": "55ed6a5eaede5d256a62966093a2036b4d625a4eff242d85ff303091d6938848",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libcrypto_utils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libcrypto_utils.so",
+      "sha256": "1c2f656c2b9cab1dc46be59bda57e37ea1006a1deb7612931c7ce570192e90b3",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libcutils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libcutils.so",
+      "sha256": "fc7d52db8cb215e524f75dc2c0065271ae6a166bf84585fb972fd030bd42a1aa",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libdl.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libdl.so",
+      "sha256": "1bc07cc5fd96c3e933342d17c03fb7296e02bb485fbd47e154ddf2a3d46e743a",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_blkid.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_blkid.so",
+      "sha256": "778edacb71c6167268af533fca0b20786281eaefe9dd205921d680bc45f9cd3d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_com_err.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_com_err.so",
+      "sha256": "6b2fbdae233f4de8f5b513fef828a2e23183bc09a145e3e902200ee35483bca2",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_e2p.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_e2p.so",
+      "sha256": "65f1c5d8868e9ca56412396e56611b25a5e0fa20ed1703ab6ecb5ee3d16b2378",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_misc.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_misc.so",
+      "sha256": "cf0f9e1c215b79fd112c70b0f0292577d88c4823e6dfb833629608a40b6fa061",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_quota.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_quota.so",
+      "sha256": "e190d512ebd45371526d43f6bbec553e0c16bec08c37996c7d53e42763b6f231",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2_uuid.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2_uuid.so",
+      "sha256": "859153458722a8f24bd1ae9b329a82046ab96ad947a044729099fb0aa81d2e7f",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext2fs.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext2fs.so",
+      "sha256": "e6504ceed537b917da49e67a7a91247cc9df453adf4485fbfacd3aac6e7926ad",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libext4_utils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libext4_utils.so",
+      "sha256": "fb5e5d1d3df54edd008dc78ad9f97e7829bf61c12c90458c33ecece5624d5def",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libfec.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libfec.so",
+      "sha256": "26c35181b264ef27e606a44f19cb0b2c6afc2402251664793b1937c69f7e7cf7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libfs_mgr.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libfs_mgr.so",
+      "sha256": "1241bce05b37cea594164dfcfbe4aec82a2c4e88d9db37936a7ce71a8d676c2c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libfusesideload.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libfusesideload.so",
+      "sha256": "999294f228ad3995e5aba3de62182539f9cbe4a30c61dee524173d4d0b6e97b6",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libgsi.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libgsi.so",
+      "sha256": "118c6cc04d6c7ec8b02fbc3635231457e6075f7774b829f5d74355da3be37869",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libhidl-gen-utils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libhidl-gen-utils.so",
+      "sha256": "84ab8f15bc35f33f13b01c47fd8acfab8fb87b91cfbec5600d33d7a6a28d7c4c",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libhidlbase.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libhidlbase.so",
+      "sha256": "6c97cb9739e5ea342133eb9c3c33fece8425100a9f45e3233a2bdb9b31291e4d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libion.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libion.so",
+      "sha256": "87f5510a7b26818b3af805dd9a635a4255b156e663dc786cc83a8dae75dfd1bd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libjsoncpp.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libjsoncpp.so",
+      "sha256": "8cad0097ed25641b0b59d22bb8d8decbc491690b38c92dfd7be4d38a4ce2e5a7",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/liblog.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/liblog.so",
+      "sha256": "00e45b0c6297fa6fbe72c2219a9fa2ab7695ade5cd6881c5aa73cf2c0afb9b51",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/liblogwrap.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/liblogwrap.so",
+      "sha256": "b93e5d226e679aea88ce5ea3b1c1e64f768fe4a612cd2a658ba7bf246961ab20",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/liblp.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/liblp.so",
+      "sha256": "a80a9dd96114d288eec485388fd6887dbffe571b5c6fe32dd56d905b3c370fc0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/liblz4.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/liblz4.so",
+      "sha256": "1e47aaeb6c6a8c80daa8e1960d3020a7b33684df1cf06da35dbf296f85f14f05",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/liblzma.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/liblzma.so",
+      "sha256": "6d17f23414680c84d6d11bb7b31f63f6b0281242f5ea1e84ec9f36e919809d90",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libm.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libm.so",
+      "sha256": "2d7d6349c61faced48e91a63d7e0fac37552f1dbfbc1f9b4bf2f223e4f9eb41b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libpackagelistparser.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libpackagelistparser.so",
+      "sha256": "635dbc6adedc7396e6de614de13391c3b1e041829ca319b6f322e4b03dd6c73d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libpcre2.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libpcre2.so",
+      "sha256": "09af0cf11d1932756d7aa41917831c0b6685e5dea097905633b61bfe9fa60eea",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libpng.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libpng.so",
+      "sha256": "e144de08617c0bef84f4ebc836beb75771b2f96181c225be6de55ec4e394f5ed",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libprocessgroup.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libprocessgroup.so",
+      "sha256": "6dd2186fdea0f41ae2df01e4da867748c8e7cd06576af0f9d8e4a20fe650b1f0",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libprocessgroup_setup.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libprocessgroup_setup.so",
+      "sha256": "1d306297fab2628bdcb5f7cf97a246f87646ad7975b6d87385f96e1025863220",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libprotobuf-cpp-lite.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libprotobuf-cpp-lite.so",
+      "sha256": "2128bc135b8325c86c13ddf9b855a22fe223739ff4ee70abe1a91f7007fe278b",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/librecovery_ui.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/librecovery_ui.so",
+      "sha256": "ff64e088f33fa3d405cc037f535eeaa73697b5110c7c66817990f7894f596631",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/librecovery_ui_ext.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/librecovery_ui_ext.so",
+      "sha256": "a406e3a7ef4a44a6adedad9fca4e4f3397356e24fe553474c1b092fd84af7f67",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/librecovery_updater.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/librecovery_updater.so",
+      "sha256": "bc04ff02edada38037bf62ff9c016cb36b8fbc59b5e0b5937a802e257151e3c4",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libselinux.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libselinux.so",
+      "sha256": "0324cc2f8a74e54182280eda3cd4a6392fce3c2064ebe76aa7d3211fb41254df",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libsparse.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libsparse.so",
+      "sha256": "2b484b8f436878a742aee2764f741c022986da44458d1bc2eb66cc27b3c248fd",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libsquashfs_utils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libsquashfs_utils.so",
+      "sha256": "d47b685cd2a96fb3e74fef827bbe35f6a06f5dde9da9347afe51fffd10550d49",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libtinyxml2.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libtinyxml2.so",
+      "sha256": "2d86ff5a1c4df7e9698f468da9184cf2155f6af4b6e1184f8c51e09514bae237",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libunwindstack.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libunwindstack.so",
+      "sha256": "5c0ca8a72e3412d7ad55bd9e5b52e4edfd28ff7ba09af14d9b7ff95bfb739cee",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libutils.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libutils.so",
+      "sha256": "0334d64088e73f0b3ccb62da2ada4bded90e73e1ed6a543d738c580b279f5537",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libvendorsupport.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libvendorsupport.so",
+      "sha256": "4abf86bea80f860e8912073222cd047fceb86d2c3870f03578bb035f47ef9e39",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libvintf.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libvintf.so",
+      "sha256": "4e8ef54f21ab8e4c73640d60688838786013863d4469acae7d9b8d2b8c00f92d",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libz.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libz.so",
+      "sha256": "40a0f9dc5610e7e3b2f32f8d7dc2dba38cb176eff42bf2cacb5c0dd04f0f1c71",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system/lib64/libziparchive.so",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system/lib64/libziparchive.so",
+      "sha256": "58640a8cc0a2b33580ab9e5da676b5080f2940ed202dc84d95469dd9a7f7f287",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system_ext_file_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system_ext_file_contexts",
+      "sha256": "b41714e16dd15ab1ddbe61ed5448a4c26ef974a26766067409e11d2c0ab8df34",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system_ext_property_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system_ext_property_contexts",
+      "sha256": "9193cda19768cf4e413a3b1f9c46468c28d391d1d21064426300cff2e5a9c2a8",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/system_ext_service_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "system_ext_service_contexts",
+      "sha256": "ecb369dbfa5b2079efc2cc7fa6c9a43bde8a98bc1b78bcb30614047b51b031bc",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/vendor_file_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "vendor_file_contexts",
+      "sha256": "01c7081d11e3fe6e46d284cb92484fe8986e02a7c30f756d8efd914399102fbc",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/vendor_property_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "vendor_property_contexts",
+      "sha256": "1d8d4f491bf3e26575476927fce44590a1b884a57acc693e398f6caf443b2015",
+      "license_concluded": "NOASSERTION"
+    },
+    {
+      "path": "recovery/root/vendor_service_contexts",
+      "source_container": "Sony stock recovery ramdisk",
+      "source_path": "vendor_service_contexts",
+      "sha256": "017d9efe40c92d5ca1e19621105b4788afe2a321d96c646efd2ff0d1a7e90487",
+      "license_concluded": "NOASSERTION"
+    }
+  ]
+}

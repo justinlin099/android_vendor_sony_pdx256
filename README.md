@@ -31,3 +31,5 @@ Build integration: https://github.com/justinlin099/twrp_sony_pdx256
 Device tree: https://github.com/justinlin099/android_device_sony_pdx256
 All three repositories are currently private. See NOTICE.md for factory binary
 and third-party asset attribution; no blanket relicensing is implied.
+
+Licensing and provenance: [NOTICE.md](NOTICE.md), [SOURCES.json](SOURCES.json).
